@@ -300,6 +300,51 @@ a {
   font-size: 0.9rem;
   margin: 0 0 0.6rem;
 }
+.project-desc {
+  line-height: 1.5;
+}
+.project-meta {
+  margin-bottom: 0.4rem;
+}
+.role-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.role-individual {
+  background: #e0f2e9;
+  color: #1b7a43;
+}
+.role-equipo {
+  background: #fdeccb;
+  color: #a3620a;
+}
+.project-contribution {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-dark);
+}
+.project-contribution strong {
+  color: var(--indigo);
+}
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.4rem 0 0.8rem;
+}
+.tech-pill {
+  background: #e4e4f5;
+  color: var(--indigo);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+}
 
 /* Footer */
 .footer {
